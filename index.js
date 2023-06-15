@@ -38,7 +38,7 @@ app.get("/v1", (req, resp) => {
         const image = $(this).find("a > img").attr("data-src");
         thumbnails.push({
           name: name,
-          url: "https://demon-slayer-api.onrender.com/v1" + url.split("/wiki")[1],
+          url: "https://crawl-data-api.onrender.com/v1" + url.split("/wiki")[1],
           image: image,
         });
       });
